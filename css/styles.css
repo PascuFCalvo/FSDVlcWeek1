@@ -1,0 +1,203 @@
+body {
+  background-color: rgba(237, 200, 226, 0.101);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+#web{
+  background-color: rgba(237, 200, 226, 0.101);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80em;
+}
+
+@font-face {
+  font-family: mexican;
+  src: url(/Proyecto-restaurante/resources/ELRIOTT2.TTF)
+}
+#columna{
+  width: 30em;
+  background-color: red;
+}
+
+
+#reclamo {
+  font-family: mexican;
+  font-size: 16px;
+  background: -webkit-linear-gradient(green, rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1em;
+  
+}
+
+#container {
+  border-radius: 1em;
+
+  padding: 20px;
+
+  border: solid 0.1em brown;
+}
+
+#wallpaper-img {
+  width: 60em;
+  height: 20em;
+  margin-bottom: 1em;
+  border: solid 0.1em brown;
+  display: flex;
+}
+
+.envoltorio-cabecera{
+  margin-top: 1em;
+}
+
+#cabecera {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+#hueco-cabecera{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wallpaper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+#logo{
+  position: absolute;
+}
+
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  border: solid 0.1em brown;
+}
+
+.navbar-brand {
+  margin-left: 0.8em;
+}
+
+#navbar-container{
+  border-radius: 0.8em;
+}
+
+.portfolio-menu {
+  text-align: center;
+  color: brown;
+}
+
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all .5s ease;
+  color: brown;
+}
+
+.nav-item {
+  font-weight: bold;
+  color: green;
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 128, 0, 0.341);
+  border-radius: 1em;
+}
+
+
+.portfolio-item .item {
+
+  float: left;
+  margin-bottom: 10px;
+}
+
+.h4 {
+  color: brown;
+}
+
+.btn {
+  border: solid brown 0.1em;
+}
+
+.btn:hover {
+  background-color: rgba(165, 42, 42, 0.479);
+  transition: 0.5s;
+}
+
+#img-gal{
+  height: 10em;
+  object-fit: cover;
+  border-radius: 0.8em;
+  margin-bottom: 1em;
+}
+
+.img-fluid {
+  height: 10em;
+  object-fit: cover;
+  border-radius: 0.8em;
+  margin-bottom: 1em;
+
+}
+
+#img-gal:hover {
+
+  scale: 1.8;
+  border: solid 0.4em gradient(green, white, red);
+  transition: 0.5s;
+  position: relative;
+  background: linear-gradient(to right, green, white, red);
+  padding: 0.5em;
+
+}
+
+.footer {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border: solid brown 0.1em;
+  border-radius: 0.8em;
+  
+}
+
+
+h4,
+h5 {
+  font-family: mexican;
+}
+
+.bg-wrapper {
+  height: 37.8em;
+  width: 60em;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  margin-left: -1.4em;
+  margin-top: -1.4em;
+}
+
+.bg-wrapper>* {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media(max-width: 540px){
+  
+
+}

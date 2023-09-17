@@ -1,0 +1,93 @@
+@font-face{
+   font-family: mexican;
+   src:url(/Proyecto-restaurante/resources/ELRIOTT2.TTF)
+}
+
+body {
+   background-color: rgba(237, 200, 226, 0.101);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+ 
+ }
+ #web{
+   background-color: rgba(237, 200, 226, 0.101);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 80em;
+ }
+
+h1 {
+   font-family: mexican;
+   text-align: center;
+   color: #FF6347;
+}
+
+section {
+   background-color: rgb(255, 255, 255); 
+   padding: 1.2em;
+   margin: 1.2em;
+   border-radius: 1em;
+   border: solid 0.4em brown
+}
+
+h2 {
+   font-family: mexican;
+   color: #8B4513; 
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+li {
+   margin: 1em 0;
+   font-size: 18px;
+   color: brown; 
+}
+
+
+
+li:hover {
+   background-color:  rgba(165, 42, 42, 0.479);
+   cursor: pointer;
+}
+
+#entrantes{
+   background-color: rgba(165, 42, 42, 0.279);
+   display:flex;
+   
+}
+
+#principales{
+   background-color: rgba(255, 255, 255, 0.279);
+   display:flex;
+}
+
+#compartir{
+   background-color: rgba(0, 128, 0, 0.378);
+   display:flex;
+}
+
+#postres{
+   background-color: rgba(206, 121, 3, 0.378);
+   display:flex;
+}
+
+#coctails{
+   background-color: rgba(173, 12, 133, 0.378);
+   display:flex;
+}
+
+.imgcarta img{
+   width: 18em;
+   height: 12em;
+   margin-left: 20em;
+   margin-top:1.2em;
+   border-radius:1em;
+}
