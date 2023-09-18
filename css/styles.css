@@ -21,7 +21,7 @@ body {
 
 @font-face {
   font-family: mexican;
-  src: url(/Proyecto-restaurante/resources/ELRIOTT2.TTF)
+  src: url(../resources/ELRIOTT2.TTF)
 }
 
 #columna {
