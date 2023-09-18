@@ -12,19 +12,49 @@ body {
    
  
  }
- #web{
-   background-color: rgba(237, 200, 226, 0.101);
+ #logo-navbar{
+   width: 3em;
+   height: 3em;
+   margin: 2em;
+   margin-top: 0.1em;
+   margin-left: 0em;
+ }
+ #botonVolverHome{
    display: flex;
+   box-shadow: #f3aacb7a 0px 7px 29px 0px;
+   border-radius: 1em;
+   width: 8em;
+   height: 3em;
+   margin-left: 1em;
+   cursor: pointer;
+  
+ }
+
+.backHome{
+   text-decoration: none;
+   margin-top: 0.8em;
+   margin-left:-1em;
+   color: #bd6f95;;
+}
+
+ #columna {
+   width: 30em;
+   
+ }
+ #web{
+   margin-top: 1em;
+   margin-bottom: 1em;
+   
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   width: 80em;
+   width: 100em;
  }
 
 h1 {
    font-family: mexican;
    text-align: center;
-   color: #FF6347;
+   color: #bd6f95;;
 }
 
 section {
@@ -32,12 +62,12 @@ section {
    padding: 1.2em;
    margin: 1.2em;
    border-radius: 1em;
-   border: solid 0.4em brown
+   box-shadow: #f3aacb7a 0px 7px 29px 0px;
 }
 
 h2 {
    font-family: mexican;
-   color: #8B4513; 
+   color: #bd6f95;; 
 }
 
 ul {
@@ -48,46 +78,58 @@ ul {
 li {
    margin: 1em 0;
    font-size: 18px;
-   color: brown; 
+   color: #bd6f95;; 
+}
+
+.navcarta{
+   font-weight: bold;
+   color: #bd6f95;
+}
+
+.navcarta:hover{
+   background-color: rgba(0, 128, 0, 0.341);
+  padding: 0;
+  color: #bd6f95;
+  font-weight: bold;
+}
+.nav-link{
+   color: #bd6f95;
 }
 
 
 
 li:hover {
-   background-color:  rgba(165, 42, 42, 0.479);
+   background-color:  rgba(165, 42, 42, 0.241);
    cursor: pointer;
+   border-radius: 1em;
+   padding: 1em;
 }
 
 #entrantes{
-   background-color: rgba(165, 42, 42, 0.279);
+   background-color: rgba(237, 200, 226, 0.207);
    display:flex;
+   
+   
    
 }
 
 #principales{
-   background-color: rgba(255, 255, 255, 0.279);
+   background-color: rgba(237, 200, 226, 0.207);
    display:flex;
 }
 
 #compartir{
-   background-color: rgba(0, 128, 0, 0.378);
+   background-color:rgba(237, 200, 226, 0.207);
    display:flex;
 }
 
 #postres{
-   background-color: rgba(206, 121, 3, 0.378);
+   background-color: rgba(237, 200, 226, 0.207);
    display:flex;
 }
 
 #coctails{
-   background-color: rgba(173, 12, 133, 0.378);
+   background-color: rgba(237, 200, 226, 0.207);
    display:flex;
 }
 
-.imgcarta img{
-   width: 18em;
-   height: 12em;
-   margin-left: 20em;
-   margin-top:1.2em;
-   border-radius:1em;
-}

@@ -3,7 +3,7 @@
 ​
 <p align="center">Proyecto 1 - Carta Restaurante Digital - Semana 1</p>
 ​
-<p align="center">Web Grupo Copenhagen, por Pascual Fernandez.
+<p align="center">Web de El Taco Jonudo por Pascual Fernandez.
 <br>
 Desarrollada como formacion del Bootcamp de Full Stack Developer de Geekshubs Academy.</p>
 ​
@@ -14,7 +14,7 @@ Desarrollada como formacion del Bootcamp de Full Stack Developer de Geekshubs Ac
 <h5 align="center"> Tecnologías utilizadas</h1>
 ​
 <p align="center">HTML5, CSS3 y Bootstrap.
-​<p align= "center">[Añadir enlace a Github]</p>
+​<p align= "center"><a href = "https://github.com/PascuFCalvo/FSDVlcWeek1">Haz Click para acceder al repositorio</a></p>
                    
 ​
 ## Tabla de contenidos
@@ -38,10 +38,10 @@ Mi proyecto consta de:
 ​
 <img src="/Proyecto-restaurante/resources/Captura1 readme.jpg"></img>
 ​
-### Observaciones: 
+### Observaciones
 ​
 - ��Hay que mejorar el estilo general pero sobre todo del formulario de contacto
-- ��Tengo que ver porque no funciona el boton de la navbar
+
 ​
 ​
 ### Licencia y copyright

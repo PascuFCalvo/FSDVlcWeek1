@@ -10,108 +10,45 @@
   <link href="/Proyecto-restaurante/css/stylescontact.css" rel="stylesheet">
 </head>
 <body>
+  <div id="columna"></div>
+  <div id = "web"><div class = "contendor">
+  </div>
+  <div id="botonVolverHome" class="botonVolverhome">
+      <img id="logo-navbar" class="img-fluid" alt="Responsive image"
+       src="/Proyecto-restaurante/resources/logoTacoJonudo.png" />
+      <a class ="backHome" href="/Proyecto-restaurante/index.html">Home</a>
+          
 
-    <div class = "contendor">
+  </div>
+      
       <h1>Contacta con nosotros</h1>
-    <p>Por favor, rellena el siguiente formulario para ponerte en contacto con nosotros o realizar una reserva.</p>
+    <div id = "textoContacta" class ="text-break">Por favor, rellena el siguiente formulario para ponerte en contacto con nosotros o realizar una reserva.</div>
     
     <form class = "formulario" action="procesar_formulario.php" method="POST">
         <label class = "texto" for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
 
-        <label class = "texto" for="correo">E-mail:</label>
+        <label class = "texto" for="correo">E-mail:&nbsp;&nbsp;&nbsp;</label>
         <input type="email" id="correo" name="correo" required><br><br>
 
         <label class = "texto" for="telefono">Teléfono:</label>
         <input type="tel" id="telefono" name="telefono"><br><br>
 
-        <label class = "texto" for="mensaje">Mensaje:</label><br>
-        <input type="text" class="mensaje" name="mensaje" rows="4" cols="50" required placeholder="Si necesitas alguna cosa en particular, dejalo indicado aqui"></input><br><br>
+        <label class = "texto" for="mensaje">Mensaje:</label><br><br>
+        <input type="text" class="mensaje cajatexto" name="mensaje" rows="4" cols="50" required placeholder="Si necesitas alguna cosa en particular, dejalo indicado aqui"></input><br><br>
 
         <input class = "buttonSend" type="submit" value="Enviar">
     </form>
 
-    <div class="calendar">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-                <table class="table-condensed table-bordered table-striped">
-                      <thead>
-                          <tr>
-                            <th colspan="7" >
-                              <a class="btn"><i class="icon-chevron-left"></i></a>
-                              <a class="btn">February 2012</a>
-                              <a class="btn"><i class="icon-chevron-right"></i></a>
-                            </th>
-                          </tr>
-                          <tr>
-                              <th>Su</th>
-                              <th>Mo</th>
-                              <th>Tu</th>
-                              <th>We</th>
-                              <th>Th</th>
-                              <th>Fr</th>
-                              <th>Sa</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr>
-                              <td class="muted">29</td>
-                              <td class="muted">30</td>
-                              <td class="muted">31</td>
-                              <td>1</td>
-                              <td>2</td>
-                              <td>3</td>
-                              <td>4</td>
-                          </tr>
-                          <tr>
-                              <td>5</td>
-                              <td>6</td>
-                              <td>7</td>
-                              <td>8</td>
-                              <td>9</td>
-                              <td>10</td>
-                              <td>11</td>
-                          </tr>
-                          <tr>
-                              <td>12</td>
-                              <td>13</td>
-                              <td>14</td>
-                              <td>15</td>
-                              <td>16</td>
-                              <td>17</td>
-                              <td>18</td>
-                          </tr>
-                          <tr>
-                              <td>19</td>
-                              <td>20</td>
-                              <td>21</td>
-                              <td>22</td>
-                              <td>23</td>
-                              <td>24</td>
-                              <td>25</td>
-                          </tr>
-                          <tr>
-                              <td>26</td>
-                              <td>27</td>
-                              <td>28</td>
-                              <td>29</td>
-                              <td class="muted">1</td>
-                              <td class="muted">2</td>
-                              <td class="muted">3</td>
-                          </tr>
-                      </tbody>
-                  </table>    
-          </div>
-        </div>
-      </div>
-    </div>
+   
 
-    </div>
+    </div></div>
+
+    
 
     
 
 
-  
+    <div id="columna"></div> 
 </body>
 </html>

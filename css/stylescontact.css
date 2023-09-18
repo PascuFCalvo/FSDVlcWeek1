@@ -7,9 +7,50 @@
 body {
    font-family: Arial, sans-serif;
    background-color: rgba(237, 200, 226, 0.101); /* Amarillo */
-   color: #333; /* Texto negro */
+   color: #bd6f95; /* Texto negro */
    display: flex;
 }
+
+#web{
+   margin-top: 1em;
+   margin-bottom: 1em;
+   
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ }
+
+ #logo-navbar{
+   width: 3em;
+   height: 3em;
+   margin: 2em;
+   margin-top: 0.1em;
+   margin-left: 0em;
+ }
+ #botonVolverHome{
+   display: flex;
+   box-shadow: #f3aacb7a 0px 7px 29px 0px;
+   border-radius: 1em;
+   width: 8em;
+   height: 3em;
+   margin-left: 0em;
+   cursor: pointer;
+  
+ }
+
+.backHome{
+   text-decoration: none;
+   margin-top: 0.8em;
+   margin-left:-1em;
+   color: #bd6f95;;
+}
+
+ .botonVolverhome{
+   display: flex;
+   flex-direction: row;
+   box-shadow: #f3aacb7a 0px 7px 29px 0px;
+ }
 
 .contenedor{
    background-color: rgba(237, 200, 226, 0.101);
@@ -22,25 +63,22 @@ body {
 
 h1{
    font-family: mexican;
-   color: brown;
+   color: #bd6f95;
 }
 
 .texto{
-   color: brown;
+   color: #bd6f95;
 }
 
 p{
-   color: brown;
+   color: #bd6f95;
 }
 
 .contendor{
    margin-left: 2em;
 }
 
-.calendar{
-   margin-top: 2em;
-   margin-left: -0.8em;
-}
+
 
 td:hover{
    background-color: rgba(165, 42, 42, 0.518);
@@ -58,9 +96,50 @@ td:hover{
 
 }
 
+
+
+#textoContacta{
+   padding-bottom: 2em;
+   color: #bd6f95;
+}
+
+.cajatexto{
+   padding: 1em;
+   overflow:hidden;
+   text-align: start;
+   margin-left: -0.5em;
+   width: 50em;
+}
+
 .mensaje{
    width: 20em;
    height: 6em;
    text-align: start;
    
 }
+
+#columna {
+   width: 30em;
+   
+ }
+
+ .buttonSend{
+   margin-left: auto;
+   margin-right: auto;
+ }
+input{
+   box-shadow: #f3aacb7a 0px 7px 29px 0px;
+  border-radius: 0.8em;
+  border:none;
+  margin-left: 1em;
+}
+
+input:hover{
+   border:solid 1px  #bd6f95;
+}
+
+input::selection{
+   border:solid 1px  #bd6f95;
+   
+}
+
