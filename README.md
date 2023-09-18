@@ -36,7 +36,7 @@ Mi proyecto consta de:
 - :thumbsup::thumbsup::thumbsup:CONTACTO: Link a un formulario de contacto para reservas y la informacion del local.
 
 ​
-<img src="/Proyecto-restaurante/resources/Captura1 readme.jpg"></img>
+<img src="../Proyecto-restaurante/resources/Captura1 readme.jpg"></img>
 ​
 ### Observaciones
 ​
